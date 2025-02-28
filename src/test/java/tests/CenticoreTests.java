@@ -32,7 +32,7 @@ public class CenticoreTests extends TestBase {
     }
 
     @Test
-    void vacanciesListShouldContainRelevantItemsOrBeEmpty() {
+    void vacanciesListShouldContainRelevantItemsOrBeEmptyTest() {
 
         step("Открыть страницу Вакансии", () -> {
             vacanciesPage.openPage();
@@ -48,7 +48,7 @@ public class CenticoreTests extends TestBase {
     }
 
     @Test
-    void fullFilledApplicationForPartnershipShouldDisplaySuccessMessage(){
+    void fullFilledApplicationForPartnershipShouldDisplaySuccessMessageTest(){
         step("Открыть страницу Разработка ПО", () -> {
             salesPage.openPage();
         });
@@ -75,7 +75,7 @@ public class CenticoreTests extends TestBase {
     }
 
     @Test
-    void partFilledApplicationForPartnershipShouldDisplayErrorMessage(){
+    void partFilledApplicationForPartnershipShouldDisplayErrorMessageTest(){
         step("Открыть страницу Разработка ПО", () -> {
             salesPage.openPage();
         });
@@ -101,7 +101,7 @@ public class CenticoreTests extends TestBase {
     }
 
     @Test
-    void fullFilledRequestCallbackFormShouldDisplaySuccessMessage(){
+    void fullFilledRequestCallbackFormShouldDisplaySuccessMessageTest(){
         step("Открыть страницу Разработка ПО", () -> {
             requestCallbackForm.openPage();
         });
