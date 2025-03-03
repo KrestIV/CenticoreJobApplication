@@ -11,7 +11,7 @@
 - [Запуск автотестов](#запуск-автотестов)
 - [Allure-отчет](#allure-отчеты)
 - [Уведомления в телеграм](#уведомления-в-телеграм)
-- [Пример запуска автотеста](#примеры-запуска-автотестов-)
+- [Пример запуска автотестов](#примеры-запуска-автотестов)
 
 
 ## Стек технологий
@@ -84,6 +84,12 @@ Allure-отчет содержит в себе результаты выполн
 <img src="media/telegramNotification.png" style="background: #FFFFFF" alt="telegram_notification">
 </p> 
 
-### Примеры запуска автотестов  
-[TestExecutionExample_00.mp4](media/TestExecutionExample_00.mp4)  
-[TestExecutionExample_01.mp4](media/TestExecutionExample_01.mp4)
+### Примеры запуска автотестов
+
+<p style="text-align:center">
+  <img title="Test execution example" src="media/TestExecutionExample_00.gif">
+</p>  
+
+<p style="text-align:center">
+  <img title="Test execution example" src="media/TestExecutionExample_01.gif">
+</p>
