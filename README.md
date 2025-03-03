@@ -87,9 +87,9 @@ Allure-отчет содержит в себе результаты выполн
 ### Примеры запуска автотестов
 
 <p style="text-align:center">
-  <img title="Test execution example" src="media/TestExecutionExample_00.gif">
+  <img title="Test execution example" src="media/TestExecutionExample_00.gif" alt="example №1">
 </p>  
 
 <p style="text-align:center">
-  <img title="Test execution example" src="media/TestExecutionExample_01.gif">
+  <img title="Test execution example" src="media/TestExecutionExample_01.gif" alt="example №2">
 </p>
