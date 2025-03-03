@@ -21,30 +21,17 @@ public class CenticoreTests extends TestBase {
     RequestCallbackForm requestCallbackForm = new RequestCallbackForm();
     @Test
     void contactsPageShouldContainAllLocationsTest() {
-
-        step("Открыть страницу Контакты", () -> {
-            contactsPage.openPage();
-        });
-
-        step("Проверить наличие всех локаций", () -> {
-            contactsPage.checkResult();
-        });
+            contactsPage.openPage()
+                    .checkResult();
     }
 
     @Test
     void vacanciesListShouldContainRelevantItemsOrBeEmptyTest() {
 
-        step("Открыть страницу Вакансии", () -> {
-            vacanciesPage.openPage();
-        });
+            vacanciesPage.openPage()
+                    .selectSpecQA()
+                    .checkResult();
 
-        step("Выбрать категорию Тестирование", () -> {
-            vacanciesPage.selectSpecQA();
-        });
-
-        step("Проверить наличие релевантных вакансий", () -> {
-            vacanciesPage.checkResult();
-        });
     }
 
     @Test
