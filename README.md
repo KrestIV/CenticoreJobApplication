@@ -1,7 +1,7 @@
 # Тестовое задание для сайта компании [Centicore](https://centicore.ru/)
 
 <p style="text-align:center">
-<img src="src/test/resources/logos/Centicore.svg" height="96" width="310" style="background: #FFFFFF" alt="centicore_logo">
+<img src="media/Centicore.svg" height="96" width="310" style="background: #FFFFFF" alt="centicore_logo">
 </p>
 
 # Содержание
@@ -14,16 +14,16 @@
 
 ## Стек технологий
 <p style="background:#FFFFFF;text-align:center">
-<img width="8%" title="Java" src="src/test/resources/logos/java-original.svg" alt="java_logo">
-<img width="8%" title="IntelliJ IDEA" src="src/test/resources/logos/intellij-original.svg" alt="intelliJIDEA_logo">
-<img width="8%" title="Selenide" src="src/test/resources/logos/Selenide.svg" alt="selenide_logo">
-<img width="8%" title="Selenoid" src="src/test/resources/logos/Selenoid.svg" alt="selenoid_logo">
-<img width="8%" title="Allure Report" src="src/test/resources/logos/Allure_Report.svg" alt="allure_logo">
-<img width="8%" title="Gradle" src="src/test/resources/logos/Gradle.svg" alt="gradle_logo">
-<img width="8%" title="JUnit5" src="src/test/resources/logos/junit-original-wordmark.svg" alt="jUnit5_logo">
-<img width="8%" title="GitHub" src="src/test/resources/logos/GitHub.svg" alt="gitHub_logo">
-<img width="8%" title="Jenkins" src="src/test/resources/logos/Jenkins.svg" alt="jenkins_logo">
-<img width="8%" title="Telegram" src="src/test/resources/logos/Telegram.svg" alt="telegram_logo">
+<a href="https://www.java.com/ru/"><img width="8%" title="Java" src="media/java-original.svg" alt="java_logo"></a>
+<a href="https://www.jetbrains.com/idea/"><img width="8%" title="IntelliJ IDEA" src="media/intellij-original.svg" alt="intelliJIDEA_logo"></a>
+<a href="https://selenide.org/"><img width="8%" title="Selenide" src="media/Selenide.svg" alt="selenide_logo"></a>
+<a href="https://aerokube.com/selenoid/"><img width="8%" title="Selenoid" src="media/Selenoid.svg" alt="selenoid_logo"></a>
+<a href="https://allurereport.org/"><img width="8%" title="Allure Report" src="media/Allure_Report.svg" alt="allure_logo"></a>
+<a href="https://gradle.org/"><img width="8%" title="Gradle" src="media/Gradle.svg" alt="gradle_logo"></a>
+<a href="https://junit.org/junit5/"><img width="8%" title="JUnit5" src="media/junit-original-wordmark.svg" alt="jUnit5_logo"></a>
+<a href="https://github.com/"><img width="8%" title="GitHub" src="media/GitHub.svg" alt="gitHub_logo"></a>
+<a href="https://www.jenkins.io/"><img width="8%" title="Jenkins" src="media/Jenkins.svg" alt="jenkins_logo"></a>
+<a href="https://telegram.org/"><img width="8%" title="Telegram" src="media/Telegram.svg" alt="telegram_logo"></a>
 </p>  
 
 Автотесты в проекте написаны на <code>Java</code> с использованием фреймворка [Selenide](https://selenide.org/),  
@@ -44,7 +44,7 @@
 Автотесты запускаются сборкой в <code>Jenkins</code> с заполнением параметров выполнения  
 
 <p>
-<img src="src/test/resources/screenshots/jenkinsBuildOptions.png" height="331" width="610" style="background: #FFFFFF" alt="jenkins_build_parameters">
+<img src="media/jenkinsBuildOptions.png" height="331" width="610" style="background: #FFFFFF" alt="jenkins_build_parameters">
 </p>  
 
 - **EXEC_SERVER** - Адрес сервера выполнения тестов
@@ -62,7 +62,7 @@ Allure-отчет содержит в себе результаты выполн
 - видео-запись выполнения теста
 
 <p>
-<img src="src/test/resources/screenshots/allureReportExample.png" height="296" width="884" style="background: #FFFFFF" alt="allure_report">
+<img src="media/allureReportExample.png" height="296" width="884" style="background: #FFFFFF" alt="allure_report">
 </p>  
 
 ### Уведомления в телеграм
@@ -70,5 +70,5 @@ Allure-отчет содержит в себе результаты выполн
 По завершении выполнения тестов отправляется краткий отчет в телеграм-бот со ссылкой на полный allure-отчет
 
 <p>
-<img src="src/test/resources/screenshots/telegramNotification.png" style="background: #FFFFFF" alt="telegram_notification">
+<img src="media/telegramNotification.png" style="background: #FFFFFF" alt="telegram_notification">
 </p> 
