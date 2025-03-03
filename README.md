@@ -7,9 +7,11 @@
 # Содержание
 - [Стек технологий](#стек-технологий)
 - [Список тестов](#список-тестов)
+- [Jenkins](#jenkins)
 - [Запуск автотестов](#запуск-автотестов)
 - [Allure-отчет](#allure-отчеты)
 - [Уведомления в телеграм](#уведомления-в-телеграм)
+- [Пример запуска автотеста](#примеры-запуска-автотестов-)
 
 
 ## Стек технологий
@@ -81,3 +83,8 @@ Allure-отчет содержит в себе результаты выполн
 <p>
 <img src="media/telegramNotification.png" style="background: #FFFFFF" alt="telegram_notification">
 </p> 
+
+### Примеры запуска автотестов  
+
+<video src="media/TestExecutionExample_00.mp4" width="320" height="240" controls></video>  
+<video src="media/TestExecutionExample_01.mp4" width="320" height="240" controls></video>  
