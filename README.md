@@ -34,11 +34,18 @@
 Реализована отправка результатов в <code>Telegram</code> при помощи бота.
 
 ### Список тестов
-**fullFilledApplicationForPartnershipShouldDisplaySuccessMessageTest** - Тест отправки заявки для сотрудничества
-**partFilledApplicationForPartnershipShouldDisplayErrorMessageTest** - Тест ошибки при неполном заполнении формы
-**vacanciesListShouldContainRelevantItemsOrBeEmptyTest** - Тест фильтра вакансий по специальности
-**fullFilledRequestCallbackFormShouldDisplaySuccessMessageTest** - Тест формы заказа обратного звонка
+**fullFilledApplicationForPartnershipShouldDisplaySuccessMessageTest** - Тест отправки заявки для сотрудничества  
+**partFilledApplicationForPartnershipShouldDisplayErrorMessageTest** - Тест ошибки при неполном заполнении формы  
+**vacanciesListShouldContainRelevantItemsOrBeEmptyTest** - Тест фильтра вакансий по специальности  
+**fullFilledRequestCallbackFormShouldDisplaySuccessMessageTest** - Тест формы заказа обратного звонка  
 **contactsPageShouldContainAllLocationsTest** - Тест отображения локаций офисов
+
+### Jenkins
+Настройка, запуск и переход к результатам запуска автотестов осуществляется в [Jenkins](https://jenkins.autotests.cloud/job/CenticoreJobApplication/)  
+
+<p>
+<img src="media/JenkinsJobMainScreen.png" style="background: #FFFFFF" alt="Jenkins_job">
+</p>
 
 ### Запуск автотестов
 Автотесты запускаются сборкой в <code>Jenkins</code> с заполнением параметров выполнения  
@@ -59,11 +66,13 @@ Allure-отчет содержит в себе результаты выполн
 - Скриншот финала теста
 - код страницы
 - журнал консоли браузера при выполнении теста
-- видео-запись выполнения теста
+- [видео-запись выполнения теста](https://selenoid.autotests.cloud/video/f6f6c0e7f7576427a76354f107f99edd.mp4)  
+
+[Пример полного allure-отчета](https://jenkins.autotests.cloud/job/CenticoreJobApplication/allure/)  
 
 <p>
 <img src="media/allureReportExample.png" height="296" width="884" style="background: #FFFFFF" alt="allure_report">
-</p>  
+</p>
 
 ### Уведомления в телеграм
 
