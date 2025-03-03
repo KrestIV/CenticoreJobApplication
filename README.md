@@ -86,5 +86,5 @@ Allure-отчет содержит в себе результаты выполн
 
 ### Примеры запуска автотестов  
 
-<video src="media/TestExecutionExample_00.mp4" width="320" height="240" controls></video>  
-<video src="media/TestExecutionExample_01.mp4" width="320" height="240" controls></video>  
+[![Watch the video](https://raw.githubusercontent.com/KrestIV/CenticoreJobApplication/396a5fdee5b45400a76b447e8a9b162ea70f8bd8/media/Selenoid.svg)](https://raw.githubusercontent.com/KrestIV/CenticoreJobApplication/396a5fdee5b45400a76b447e8a9b162ea70f8bd8/media/TestExecutionExample_00.mp4)  
+[![Watch the video](https://raw.githubusercontent.com/KrestIV/CenticoreJobApplication/396a5fdee5b45400a76b447e8a9b162ea70f8bd8/media/Selenoid.svg)](https://raw.githubusercontent.com/KrestIV/CenticoreJobApplication/396a5fdee5b45400a76b447e8a9b162ea70f8bd8/media/TestExecutionExample_01.mp4)  
